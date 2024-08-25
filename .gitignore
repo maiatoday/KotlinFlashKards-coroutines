@@ -1,0 +1,45 @@
+# IntelliJ IDEA specific files
+/.idea/
+*.iws
+*.iml
+*.ipr
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Gradle specific files
+.gradle/
+build/
+
+# Course creator files
+.coursecreator/
+
+# Kotlin specific files
+out/
+
+# JetBrains Academy specific files
+jba/solutions/
+jba/templates/
+
+# Logs
+*.log
+
+# Bytecode and class files
+*.class
+*.jar
+*.war
+*.ear
+
+# Maven specific files
+target/
+
+# Binary files
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Temporary Files
+*.tmp
+*.temp

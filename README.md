@@ -1,3 +1,3 @@
-# Flash cards for Kotlin Coroutines and Flows
+# KotlinFlashKards - coroutines
 
-Flashcard IDE course for coroutines and flows
+FlashKard IDE course for coroutines

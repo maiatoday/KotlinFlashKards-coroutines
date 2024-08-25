@@ -1,0 +1,16 @@
+type: marketplace
+title: KotlinFlashKards - coroutines
+language: English
+summary: "This is a set of flash cards to practise Kotlin Coroutine syntax. It can\
+  \ be used at regular intervals to strengthen long term memory recall of core syntax\
+  \ patterns used in concurrent code in Kotlin. It covers Coroutines, error handling\
+  \ and testing Coroutines. \n\nIt does not replace the documentation at kotlinlang.org\
+  \ or a good book but is a supplementary source of practice material to practise\
+  \ recall of the syntax and coding patterns."
+programming_language: Kotlin
+content:
+  - How to use this course
+  - Coroutines
+  - Conclusion
+environment_settings:
+  jvm_language_level: JDK_1_8
