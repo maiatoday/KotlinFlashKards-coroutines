@@ -7,8 +7,9 @@ options:
     is_correct: true
   - text: Thread safe data structures
     is_correct: true
-  - text: Nothing, concurrency errors won't happen
+  - text: "Nothing, concurrency errors won't happen"
     is_correct: false
 files:
   - name: src/Main.kt
     visible: true
+local_check: true
