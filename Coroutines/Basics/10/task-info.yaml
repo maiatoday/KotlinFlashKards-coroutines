@@ -1,11 +1,14 @@
 type: choice
 is_multiple_choice: false
 options:
-  - text: Correct
-    is_correct: true
-  - text: Incorrect
+  - text: Dispatchers.Default
     is_correct: false
+  - text: Dispatchers.Main
+    is_correct: false
+  - text: Dispatchers.IO
+    is_correct: false
+  - text: Dispatchers.Unconfined
+    is_correct: true
 files:
   - name: src/Main.kt
     visible: true
-local_check: true

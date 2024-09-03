@@ -1,11 +1,14 @@
 type: choice
-is_multiple_choice: false
+is_multiple_choice: true
 options:
-  - text: Correct
+  - text: Mutex
     is_correct: true
-  - text: Incorrect
+  - text: Atomic variables
+    is_correct: true
+  - text: Thread safe data structures
+    is_correct: true
+  - text: Nothing, concurrency errors won't happen
     is_correct: false
 files:
   - name: src/Main.kt
     visible: true
-local_check: true
