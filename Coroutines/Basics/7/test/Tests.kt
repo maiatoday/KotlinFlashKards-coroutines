@@ -1,9 +1,30 @@
-import org.junit.Assert
-import org.junit.Test
+import kotlinx.coroutines.*
+import kotlinx.coroutines.test.runTest
+import kotlin.test.Test
+import kotlin.test.assertFalse
+import kotlin.test.assertTrue
+import kotlin.time.Duration.Companion.milliseconds
 
-class Test {
-    @Test fun testSolution() {
-        //TODO: implement your test here
-        Assert.assertTrue("Tests not implemented for the task", false)
+class JobTest {
+
+    @Test
+    fun testSolution() = runTest {
+        val handleToCoroutine: Job = launch {
+            // Simulated workload
+            repeat(1000) { i ->
+                println("I'm working on task $i ...")
+                delay(500.milliseconds)
+            }
+        }
+
+        // Ensure the job is active before cancellation
+        assertTrue(handleToCoroutine.isActive)
+
+        // Cancel the job and wait for its completion
+        handleToCoroutine.cancelAndJoin()
+
+        // Ensure the job is no longer active
+        assertFalse(handleToCoroutine.isActive)
+        assertTrue(handleToCoroutine.isCancelled)
     }
 }

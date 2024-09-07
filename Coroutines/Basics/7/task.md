@@ -2,6 +2,8 @@ Question:
 
 **What does the launch function return? What is it used for?**
 
+Note: Try fixing the main function and the Test 
+
 <div class="hint">
    Job
 
