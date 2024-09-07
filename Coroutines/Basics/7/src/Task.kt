@@ -14,7 +14,13 @@ fun main() = runBlocking {
     delay(1300.milliseconds)
     println("main: I'm tired of waiting!")
 
+    // Ensure the job is active before cancellation
+    check(handleToCoroutine.isActive)
+
     // Cancelling the job
     handleToCoroutine.cancelAndJoin()
+
+    // Ensure the job is no longer active
+    check(handleToCoroutine.isCancelled)
     println("main: Now I can quit.")
 }

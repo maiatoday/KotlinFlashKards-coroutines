@@ -6,10 +6,6 @@ files:
       - offset: 187
         length: 3
         placeholder_text: TODO
-  - name: test/Tests.kt
-    visible: true
-    placeholders:
-      - offset: 297
-        length: 3
-        placeholder_text: TODO
+  - name: test/output.txt
+    visible: false
     propagatable: false
