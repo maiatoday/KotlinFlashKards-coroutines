@@ -1,15 +1,14 @@
-type: choice
-is_multiple_choice: true
-options:
-  - text: Mutex
-    is_correct: true
-  - text: Atomic variables
-    is_correct: true
-  - text: Thread safe data structures
-    is_correct: true
-  - text: "Nothing, concurrency errors won't happen"
-    is_correct: false
+type: output
 files:
-  - name: src/Main.kt
+  - name: src/Task.kt
     visible: true
-local_check: true
+    placeholders:
+      - offset: 60
+        length: 26
+        placeholder_text: TODO
+      - offset: 66
+        length: 21
+        placeholder_text: TODO
+  - name: test/output.txt
+    visible: false
+    propagatable: false

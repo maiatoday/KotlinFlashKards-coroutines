@@ -1,9 +1,10 @@
-import org.junit.Assert
+import kotlinx.coroutines.test.runTest
 import org.junit.Test
+import kotlin.test.assertEquals
 
 class Test {
-    @Test fun testSolution() {
-        //TODO: implement your test here
-        Assert.assertTrue("Tests not implemented for the task", false)
+    @Test fun testSolution() = runTest {
+        val result = fetchData()
+        assertEquals("World!", result)
     }
 }

@@ -3,14 +3,14 @@ import kotlinx.coroutines.*
 fun main() = runBlocking {
     println("Main start")
 
-    val deferred = async(Dispatchers.Default) {
+    val deferred = async(Dispatchers.IO) {
         println("Dispatcher: Working on thread ${Thread.currentThread().name}")
         doWork()
     }
 
     println("Main waiting")
 
-    // Await results
+    // Await result
     val result = deferred.await()
     println("Result: $result")
     println("Main end")

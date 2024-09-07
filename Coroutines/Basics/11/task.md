@@ -1,7 +1,8 @@
 Question:
 
-**How do you pass a dispatcher to a coroutine builder?**
+**Which Dispatcher is used for UI bound logic in the context of a UI framework? How many threads does it use?**
 
 <div class="hint">
-  launch(Dispatchers.Default)
+  One
 </div>
+

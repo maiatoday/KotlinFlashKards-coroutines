@@ -1,8 +1,7 @@
 Question:
 
-**Which dispatcher is used for unusual or custom situations?  Which thread will it use?**
+**Which Dispatcher is used for general purpose operations and CPU bound operations? How many threads does it use?**
 
 <div class="hint">
-  The thread it was started on
+  Number of CPU cores
 </div>
-

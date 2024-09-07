@@ -1,7 +1,7 @@
 Question:
 
-**How do you create a context for a coroutine that has a Dispatcher and a coroutine name?**
+**What compiler intrinsic property is provided in a coroutine to inspect the context?**
 
 <div class="hint">
-  Dispatchers.xx + ??
+  coroutineContext
 </div>

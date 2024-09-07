@@ -1,7 +1,8 @@
 Question:
 
-**What compiler intrinsic property is provided in a coroutine to inspect the context?**
+**How do you switch dispatchers within a coroutine?**
 
 <div class="hint">
-  coroutineContext
+  withContext(Dispatchers.xxx)
 </div>
+

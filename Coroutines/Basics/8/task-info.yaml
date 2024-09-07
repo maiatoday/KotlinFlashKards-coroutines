@@ -1,15 +1,7 @@
-type: choice
-is_multiple_choice: false
-options:
-  - text: Dispatchers.Default
-    is_correct: true
-  - text: Dispatchers.Main
-    is_correct: false
-  - text: Dispatchers.IO
-    is_correct: false
-  - text: Dispatchers.Unconfined
-    is_correct: false
+type: edu
 files:
-  - name: src/Main.kt
+  - name: src/Task.kt
     visible: true
-local_check: true
+  - name: test/Tests.kt
+    visible: false
+    propagatable: false

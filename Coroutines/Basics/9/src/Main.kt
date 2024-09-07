@@ -10,7 +10,7 @@ fun main() = runBlocking {
 
     println("Main waiting")
 
-    // Await result
+    // Await results
     val result = deferred.await()
     println("Result: $result")
     println("Main end")

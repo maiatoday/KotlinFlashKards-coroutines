@@ -2,14 +2,18 @@ type: choice
 is_multiple_choice: false
 options:
   - text: Dispatchers.Default
-    is_correct: false
+    is_correct: true
   - text: Dispatchers.Main
     is_correct: false
   - text: Dispatchers.IO
     is_correct: false
   - text: Dispatchers.Unconfined
-    is_correct: true
+    is_correct: false
 files:
   - name: src/Main.kt
     visible: true
+    placeholders:
+      - offset: 108
+        length: 19
+        placeholder_text: TODO
 local_check: true

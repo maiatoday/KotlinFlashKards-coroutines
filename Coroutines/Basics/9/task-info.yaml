@@ -4,12 +4,16 @@ options:
   - text: Dispatchers.Default
     is_correct: false
   - text: Dispatchers.Main
-    is_correct: true
-  - text: Dispatchers.IO
     is_correct: false
+  - text: Dispatchers.IO
+    is_correct: true
   - text: Dispatchers.Unconfined
     is_correct: false
 files:
   - name: src/Main.kt
     visible: true
+    placeholders:
+      - offset: 108
+        length: 16
+        placeholder_text: TODO
 local_check: true

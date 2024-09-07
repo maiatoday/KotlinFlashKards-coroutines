@@ -1,8 +1,8 @@
 Question:
 
-**How do you switch dispatchers within a coroutine?**
+**Which dispatcher is used for unusual or custom situations?  Which thread will it use?**
 
 <div class="hint">
-  withContext(Dispatchers.xxx)
+  The thread it was started on
 </div>
 

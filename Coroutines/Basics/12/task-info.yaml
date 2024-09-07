@@ -1,7 +1,19 @@
-type: edu
+type: choice
+is_multiple_choice: false
+options:
+  - text: Dispatchers.Default
+    is_correct: false
+  - text: Dispatchers.Main
+    is_correct: false
+  - text: Dispatchers.IO
+    is_correct: false
+  - text: Dispatchers.Unconfined
+    is_correct: true
 files:
-  - name: src/Task.kt
+  - name: src/Main.kt
     visible: true
-  - name: test/Tests.kt
-    visible: false
-    propagatable: false
+    placeholders:
+      - offset: 108
+        length: 22
+        placeholder_text: TODO
+local_check: true

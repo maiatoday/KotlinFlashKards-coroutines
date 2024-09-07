@@ -1,7 +1,9 @@
 Question:
 
-**Which Dispatcher is used for offloading network calls or database reads? How many threads does it use?**
+**What does the launch function return? What is it used for?**
 
 <div class="hint">
-  Upto 64 or number of CPU cores whichever is larger
+   Job
+
+   We can cancel and control the coroutine with the job object
 </div>

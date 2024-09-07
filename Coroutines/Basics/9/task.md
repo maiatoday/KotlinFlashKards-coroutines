@@ -1,8 +1,7 @@
 Question:
 
-**Which Dispatcher is used for UI bound logic in the context of a UI framework? How many threads does it use?**
+**Which Dispatcher is used for offloading network calls or database reads? How many threads does it use?**
 
 <div class="hint">
-  One
+  Upto 64 or number of CPU cores whichever is larger
 </div>
-
