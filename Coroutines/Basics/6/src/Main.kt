@@ -3,7 +3,6 @@ import kotlinx.coroutines.*
 fun main() = runBlocking {
     println("Main start")
 
-    // Switch to Default Dispatcher
     val defaultDeferred = async(Dispatchers.Default) {
         println("Default Dispatcher: Working on thread ${Thread.currentThread().name}")
         doWork()
