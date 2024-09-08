@@ -1,0 +1,7 @@
+Question: What language primitive is used to indicate that a function can pause execution without blocking?
+Answer: suspend
+Question: How would you start a new coroutine when you don’t care about the return value??
+Answer: launch
+Question: Which coroutine builder is suitable if you want to return a result? How do you get the result?
+Answer: async / await
+

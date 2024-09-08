@@ -1,1 +1,1 @@
-// type your solution here
+// No sample good, avoid doing this
