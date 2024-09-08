@@ -12,3 +12,4 @@ options:
 files:
   - name: src/Task.kt
     visible: true
+local_check: true

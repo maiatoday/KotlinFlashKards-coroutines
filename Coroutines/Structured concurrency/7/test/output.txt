@@ -1,0 +1,6 @@
+Coroutine is working on iteration 0
+Coroutine is working on iteration 1
+Coroutine is working on iteration 2
+Coroutine is working on iteration 3
+Main thread cancels the coroutine
+Coroutine has been cancelled

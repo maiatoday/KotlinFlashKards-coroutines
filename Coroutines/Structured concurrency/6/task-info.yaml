@@ -12,6 +12,3 @@ files:
       - offset: 952
         length: 6
         placeholder_text: TODO
-  - name: test/Tests.kt
-    visible: false
-    propagatable: false
