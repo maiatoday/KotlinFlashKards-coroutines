@@ -10,5 +10,5 @@ options:
   - text: The dispatcher of the parent
     is_correct: true
 files:
-  - name: src/Main.kt
+  - name: src/Task.kt
     visible: true
