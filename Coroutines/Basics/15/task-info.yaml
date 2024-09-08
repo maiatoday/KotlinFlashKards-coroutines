@@ -12,4 +12,3 @@ options:
 files:
   - name: src/Main.kt
     visible: true
-local_check: true

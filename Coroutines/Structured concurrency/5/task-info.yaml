@@ -1,11 +1,14 @@
 type: choice
 is_multiple_choice: false
 options:
-  - text: Correct
-    is_correct: true
-  - text: Incorrect
+  - text: The default dispatcher
     is_correct: false
+  - text: The default dispatcher unless you change it
+    is_correct: false
+  - text: You have to give it a dispatcher
+    is_correct: false
+  - text: The dispatcher of the parent
+    is_correct: true
 files:
   - name: src/Main.kt
     visible: true
-local_check: true

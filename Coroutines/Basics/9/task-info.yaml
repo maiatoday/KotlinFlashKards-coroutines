@@ -16,4 +16,3 @@ files:
       - offset: 108
         length: 14
         placeholder_text: TODO
-local_check: true
