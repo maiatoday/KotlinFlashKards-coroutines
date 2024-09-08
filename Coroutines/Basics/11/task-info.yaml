@@ -12,11 +12,4 @@ options:
 files:
   - name: src/Main.kt
     visible: true
-    placeholders:
-      - offset: 141
-        length: 0
-        placeholder_text: TODO
-      - offset: 147
-        length: 0
-        placeholder_text: TODO
 local_check: true

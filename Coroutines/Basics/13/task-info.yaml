@@ -3,9 +3,9 @@ files:
   - name: src/Task.kt
     visible: true
     placeholders:
-      - offset: 66
-        length: 21
-        placeholder_text: (TODO)
+      - offset: 67
+        length: 20
+        placeholder_text: TODO
   - name: test/output.txt
     visible: false
     propagatable: false
