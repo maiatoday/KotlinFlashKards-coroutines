@@ -11,7 +11,7 @@ fun main() = runBlocking {
 
     delay(500.milliseconds) // Let the coroutine run for a bit
     println("Main thread cancels the coroutine")
-    job.cancelAndJoin() // Cancel the coroutine and wait for its completion
+    job.cancel() // Stop the coroutine manually
     println("Coroutine has been cancelled")
     check(job.isCancelled)
 }
