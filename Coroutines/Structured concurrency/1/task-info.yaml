@@ -1,4 +1,7 @@
-type: theory
+type: output
 files:
-  - name: src/Main.kt
+  - name: src/Task.kt
     visible: true
+  - name: test/output.txt
+    visible: false
+    propagatable: false

@@ -1,0 +1,4 @@
+Waiting for children to complete...
+Result of child 2: Hello, World!
+Result of child 1: 2
+Parent can complete only after children complete.
