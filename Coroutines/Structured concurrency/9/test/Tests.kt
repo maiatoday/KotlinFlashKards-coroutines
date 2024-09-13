@@ -1,9 +1,16 @@
-import org.junit.Assert
+import kotlinx.coroutines.TimeoutCancellationException
+import kotlinx.coroutines.test.runTest
+import org.junit.Assert.assertThrows
 import org.junit.Test
 
 class Test {
-    @Test fun testSolution() {
-        //TODO: implement your test here
-        Assert.assertTrue("Tests not implemented for the task", false)
+
+    @Test
+    fun testSolution() {
+        assertThrows(TimeoutCancellationException::class.java) {
+            runTest {
+                doSomething()
+            }
+        }
     }
 }
