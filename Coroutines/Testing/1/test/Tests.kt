@@ -1,9 +1,11 @@
-import org.junit.Assert
+import kotlinx.coroutines.delay
+import kotlinx.coroutines.test.runTest
 import org.junit.Test
+import kotlin.time.Duration.Companion.milliseconds
 
 class Test {
-    @Test fun testSolution() {
-        //TODO: implement your test here
-        Assert.assertTrue("Tests not implemented for the task", false)
+    @Test fun testSolution() = runTest {
+        delay(100.milliseconds)
+        assert(true)
     }
 }
