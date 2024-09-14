@@ -1,0 +1,1 @@
+Custom Error handler: java.lang.UnsupportedOperationException: Oops! caught by the custom handler

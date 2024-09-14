@@ -5,4 +5,3 @@ Question:
 <div class="hint">
   Only the root coroutine: The coroutine that has no parent and contains the whole coroutine tree.
 </div>
-

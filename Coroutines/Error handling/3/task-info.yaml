@@ -1,7 +1,8 @@
-type: edu
+type: theory
 files:
   - name: src/Task.kt
     visible: true
-  - name: test/Tests.kt
-    visible: false
-    propagatable: false
+    placeholders:
+      - offset: 117
+        length: 15
+        placeholder_text: TODO

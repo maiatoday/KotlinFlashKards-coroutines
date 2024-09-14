@@ -1,12 +1,12 @@
 import kotlinx.coroutines.*
 import kotlin.time.Duration.Companion.milliseconds
 
-fun main(): Unit = runBlocking {
-    supervisorScope {
+fun main():Unit = runBlocking {
+    launch {
         val ticks = async {
             // Child 1 ticks
             var ticks = 0
-            repeat(10) {
+            repeat (10) {
                 println("Tick")
                 ticks++
                 delay(100.milliseconds)
@@ -16,10 +16,9 @@ fun main(): Unit = runBlocking {
         launch {
             // Child 2 stops the clock
             delay(500.milliseconds)
-            // The ticking doesn't stop
+            // stop the ticking in the sibling and stop the main thread
             throw StopTheClockException("Child 2 Stop!")
         }
-
         println("Ticks ${ticks.await()}")
         println("End")
     }

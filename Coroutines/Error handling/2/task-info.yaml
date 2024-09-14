@@ -1,11 +1,11 @@
 type: choice
 is_multiple_choice: false
 options:
-  - text: Correct
+  - text: The parent coroutine and all siblings are cancelled
     is_correct: true
-  - text: Incorrect
+  - text: Only the coroutine that crashes stops
     is_correct: false
 files:
-  - name: src/Main.kt
+  - name: src/Task.kt
     visible: true
 local_check: true

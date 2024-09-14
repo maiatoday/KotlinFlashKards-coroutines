@@ -1,11 +1,11 @@
 type: choice
 is_multiple_choice: false
 options:
-  - text: Correct
-    is_correct: true
-  - text: Incorrect
+  - text: In the async call
     is_correct: false
+  - text: In the await call
+    is_correct: true
 files:
-  - name: src/Main.kt
+  - name: src/Task.kt
     visible: true
 local_check: true

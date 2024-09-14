@@ -1,8 +1,8 @@
 Question:
 
-**Where is a the exception caught if a coroutine started with launch throws an exception?**
+**Where is the exception caught if a coroutine started with launch throws an exception?**
 
 <div class="hint">
-  The parent of the coroutine. Wrapping the launch call with try catch will catch the exception.
+  Look at the code in the sample. Remove the exception handler and see where the exception is caught.
 </div>
 

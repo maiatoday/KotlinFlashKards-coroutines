@@ -1,11 +1,14 @@
 type: choice
 is_multiple_choice: false
 options:
-  - text: Correct
-    is_correct: true
-  - text: Incorrect
+  - text: The exception stays in the coroutine
     is_correct: false
+  - text: The direct parent coroutine and then it stops
+    is_correct: false
+  - text: It propagates up to the top of the coroutine hierarchy until it reaches a
+      context with an exception handler or if none exists then the system wide handler.
+    is_correct: true
 files:
-  - name: src/Main.kt
+  - name: src/Task.kt
     visible: true
 local_check: true

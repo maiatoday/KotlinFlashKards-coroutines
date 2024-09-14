@@ -1,9 +1,10 @@
 Question:
 
-**Where is the best way to handle errors inside a coroutine?**
-
+**Where do you catch exceptions that could be thrown by suspending functions?**
 
 <div class="hint">
-  try catch in the coroutine
+  Both options are in the code snippet. Try it out and see where the exception is caught.
 </div>
+
+
 

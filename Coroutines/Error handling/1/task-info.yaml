@@ -1,7 +1,11 @@
-type: edu
+type: choice
+is_multiple_choice: false
+options:
+  - text: surround the coroutine with the try catch
+    is_correct: false
+  - text: surround the functions inside the coroutine with try catch
+    is_correct: true
 files:
   - name: src/Task.kt
     visible: true
-  - name: test/Tests.kt
-    visible: false
-    propagatable: false
+local_check: true
