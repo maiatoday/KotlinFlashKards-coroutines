@@ -7,6 +7,8 @@ summary: "This is a set of flash cards to practise Kotlin Coroutine syntax. It c
   \ and testing Coroutines. \n\nIt does not replace the documentation at kotlinlang.org\
   \ or a good book but is a supplementary source of practice material to practise\
   \ recall of the syntax and coding patterns."
+vendor:
+  name: Maia Grotepass
 programming_language: Kotlin
 content:
   - How to use this course
