@@ -1,8 +1,9 @@
 Question:
 
-**How do you adjust the time out on a test started with runTest?**
+**What property of the testDispatcher can you use to see what the virtual time is?**
 
 <div class="hint">
-  runTest(...)
+  `currentTime`
 </div>
+
 

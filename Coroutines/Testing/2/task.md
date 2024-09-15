@@ -2,7 +2,8 @@ Question:
 
 **How long does it take to run a test with delays if you use the correct coroutine builder?**
 
+
 <div class="hint">
-  0 extra time if you use the runTest coroutine builder. Virtual time is used so delays take no time.
+  Click on the run icon in the gutter in the test. Check how long the test takes. Change `runTest` to `run`Blocking` and test again.
 </div>
 

@@ -1,7 +1,0 @@
-type: edu
-files:
-  - name: src/Task.kt
-    visible: false
-  - name: test/Tests.kt
-    visible: true
-    propagatable: false
