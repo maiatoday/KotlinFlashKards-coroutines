@@ -1,3 +1,3 @@
 fun main() {
-    // Write your solution here
+    println("All the setup should be done!")
 }

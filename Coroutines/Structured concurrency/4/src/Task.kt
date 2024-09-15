@@ -1,1 +1,1 @@
-// No sample good, avoid doing this
+// No sample code. This is good because you shouldn't use this scope

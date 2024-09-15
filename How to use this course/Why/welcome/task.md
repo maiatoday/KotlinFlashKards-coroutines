@@ -3,7 +3,7 @@
 
 This course is a set of flash cards to revise how to use coroutines. It does not replace the [documentation](https://kotlinlang.org/docs/coroutines-overview.html) or a good book. It should be used together with other materials.
 
-Coroutines are *the* builtin and supported way that Kotlin provides to do concurrency. It is worthwhile to know the language and library concepts to be able to fluently write code and think about problems and how they could be solved in Kotlin. 
+Coroutines are *the* builtin and *supported* way that Kotlin provides to do concurrency. It is worthwhile to know the language and library concepts to be able to fluently write code and think about concurrent problems and how they could be solved in Kotlin. 
 
 **Why do this? Can't I just look up the syntax with AI or on the internet?**
 

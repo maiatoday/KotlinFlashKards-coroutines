@@ -8,18 +8,18 @@ fun main() = runBlocking {
             repeat(4) {
                 println("Tick")
                 if (it == 2) {
-                    throw TheBombException("Boom!")
+                    throw StopTheClockException("Boom!")
                 }
             }
-            } catch (e: TheBombException) {
+            } catch (e: StopTheClockException) {
                 println("Caught exception in coroutine: ${e.message}")
             }
         }
 
         job.join()
-    } catch (e: TheBombException) {
+    } catch (e: StopTheClockException) {
         println("Caught exception in runBlocking: ${e.message}")
     }
 }
 
-class TheBombException(message: String) : Exception(message)
+class StopTheClockException(message: String) : Exception(message)

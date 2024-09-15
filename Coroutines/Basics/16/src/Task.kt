@@ -11,5 +11,5 @@ fun main() = runBlocking {
     check(compilerIntrinsicInfo[Job] is Job)
     println("contains a Job ${compilerIntrinsicInfo[Job] is Job}")
     check(compilerIntrinsicInfo[CoroutineDispatcher] is CoroutineDispatcher)
-    println("contains a Job ${compilerIntrinsicInfo[CoroutineDispatcher] is CoroutineDispatcher}")
+    println("contains a Dispatcher ${compilerIntrinsicInfo[CoroutineDispatcher] is CoroutineDispatcher}")
 }

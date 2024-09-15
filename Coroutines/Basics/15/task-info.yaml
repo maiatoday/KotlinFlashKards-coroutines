@@ -3,6 +3,8 @@ is_multiple_choice: true
 options:
   - text: Mutex
     is_correct: true
+  - text: Synchronized code block
+    is_correct: true
   - text: Atomic variables
     is_correct: true
   - text: Thread safe data structures

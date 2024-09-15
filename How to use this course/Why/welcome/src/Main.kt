@@ -1,3 +1,3 @@
 fun main() {
-    // Write your solution here
+    println("Welcome to the course, KotlinFlashCards for Coroutines")
 }
