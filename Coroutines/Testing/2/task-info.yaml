@@ -1,11 +1,14 @@
 type: choice
 is_multiple_choice: false
 options:
-  - text: Correct
-    is_correct: true
-  - text: Incorrect
+  - text: Delays take as long as the duration specified
     is_correct: false
+  - text: No extra time
+    is_correct: true
 files:
   - name: src/Main.kt
+    visible: false
+  - name: test/Tests.kt
     visible: true
+    propagatable: false
 local_check: true
