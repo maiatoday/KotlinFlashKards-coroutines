@@ -10,7 +10,7 @@ fun main() = runBlocking {
             ensureActive()
         }
     }
-    delay(100.milliseconds)
+    delay(10.milliseconds)
     job.cancel()
     println("\nDone")
 
